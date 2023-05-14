@@ -1,0 +1,18 @@
+package dfh;
+import java.util.Scanner;
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+			// TODO Auto-generated method stub
+	     imc imc = new imc ();
+	 	double peso,altura;
+	    Scanner ler = new Scanner(System.in);
+		  System.out.println("digite seu peso");
+		  peso = ler.nextDouble();
+		  System.out.println("digite sua altura");
+		  altura = ler.nextDouble();
+	    imc.calculoImc(peso, altura);
+	}
+}

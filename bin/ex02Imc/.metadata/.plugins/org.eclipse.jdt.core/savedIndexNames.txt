@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\2°Ano B\DS\1°BIMESTRE\POO\exMetodos2\src\ex02Imc\.metadata\.plugins\org.eclipse.jdt.core
+3092446199.index
+1865797976.index
+2676959665.index

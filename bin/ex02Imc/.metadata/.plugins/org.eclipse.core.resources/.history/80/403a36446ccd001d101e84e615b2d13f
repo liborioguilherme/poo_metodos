@@ -1,0 +1,32 @@
+package dfh;
+import java.util.Scanner;
+public class imc {
+	
+		public int peso1;
+		public int altura1;
+		public int imc;
+
+		Scanner ler = new Scanner(System.in);
+		
+	  public void calculoImc(int peso,int altura) {
+			peso1 = peso;
+			altura1 = altura;
+		 imc =  peso1/(altura1/100*altura1/100);
+		if(imc<18.5) {
+			System.out.println( "Abaixo do peso");
+		}
+		else if(imc>18.5 && imc<24.9) {
+			System.out.println("peso normal");
+		}
+		else if(imc>25 && imc<29.9) {
+			System.out.println("Obesidade classe I");
+		}
+		else if(imc>30 && imc<34.9) {
+			System.out.println("Obesidade classe II");
+		}
+		else if(imc>35 && imc<39.9) {
+			System.out.println("Obesidade classe III");
+		}
+	  }
+	
+}
